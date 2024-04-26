@@ -1,6 +1,8 @@
 # flyff-launcher
 This project provides a custom web-based launcher for playing Flyff Universe, an MMORPG, using Electron. This launcher features a custom title bar with system control buttons (minimize, maximize, close) on the right side and an app icon on the left side.
 
+**Attention: This launcher has only been tested on Windows 10!**
+
 ## Prerequisites
 Before you can run this project, you'll need to have Node.js installed on your system. You can download and install Node.js from [Node.js official website](https://nodejs.org/).
 
@@ -43,7 +45,7 @@ This project is open-source and available under the MIT License.
 
 1. **Running the Application**:
 
-     To run the Flyff Launcher, use the shortcut "Flyff" or execute the following command in your terminal:
+     To run the Flyff Launcher, use the shortcut "Flyff.ink" (This shortcut is made for Window) or execute the following command in your terminal:
 
      ```bash
      npm start
