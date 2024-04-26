@@ -50,7 +50,6 @@ This project is open-source and available under the MIT License.
      ```
 
      This will launch the Electron application with the configured settings.
-     ```
 
 2. **Screenshots**:
    ![alt text](image.png)
