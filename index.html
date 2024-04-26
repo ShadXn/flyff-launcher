@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="title-bar">
+        <img src="assets/favicon.ico" alt="App Icon" class="title-bar-icon">
+        <div>Flyff</div>
+        <div class="title-bar-controls">
+            <button onclick="minimizeWindow()" class="title-bar-button">
+                <i class="bi bi-dash-lg"></i>
+            </button>
+            <button onclick="maximizeWindow()" class="title-bar-button">
+                <i class="bi bi-arrows-fullscreen"></i>
+            </button>
+            <button onclick="closeWindow()" class="title-bar-button">
+                <i class="bi bi-x-lg"></i>
+            </button>
+            
+        </div>
+    </div>
+   
+  <!-- Your app content -->
+  <script>
+    function minimizeWindow() {
+        window.electron.minimize();
+    }
+
+    function maximizeWindow() {
+        window.electron.maximize();
+    }
+
+    function closeWindow() {
+        window.electron.close();
+    }
+</script>
+</body>
+</html>

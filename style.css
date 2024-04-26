@@ -1,0 +1,40 @@
+#title-bar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 30px;
+    background: #333;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+    -webkit-app-region: drag;
+}
+
+.title-bar-icon {
+    height: 20px; /* Adjust size as needed */
+    width: 20px; /* Maintain aspect ratio */
+    margin-right: 10px; /* Space between icon and title */
+    -webkit-app-region: no-drag;
+}
+
+.title-bar-controls {
+    margin-left: auto; /* Push controls to the right */
+    -webkit-app-region: no-drag;
+    display: flex;
+}
+
+.title-bar-button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title-bar-button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}

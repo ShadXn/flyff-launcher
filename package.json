@@ -1,0 +1,22 @@
+{
+  "name": "flyff-electron",
+  "version": "1.0.0",
+  "description": "An Electron application for Flyff.",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [
+    "electron",
+    "flyff",
+    "game"
+  ],
+  "author": "Your Name",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^30.0.1"
+  },
+  "dependencies": {
+    "bootstrap-icons": "^1.11.3"
+  }
+}
