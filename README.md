@@ -27,7 +27,15 @@ This project uses Bootstrap Icons for window control buttons. Install them via n
 
 npm install bootstrap-icons
 This command adds Bootstrap Icons to your project, allowing you to use the icons as part of your application's UI.
+
+To run the Flyff Launcher, use the shortcut "Flyff.ink" (This shortcut is made for Window) or execute the following command in your terminal:
+npm start
+This will launch the Electron application with the configured settings.
 ```
+     
+
+2. **Screenshots**:
+   ![alt text](image.png)
 
 ## Features
  - Custom Title Bar: Includes custom draggable title bar with minimize, maximize, and close buttons.
@@ -39,19 +47,3 @@ This command adds Bootstrap Icons to your project, allowing you to use the icons
 
 ## License
 This project is open-source and available under the MIT License.
-
-
-## Additional Recommendations:
-
-1. **Running the Application**:
-
-     To run the Flyff Launcher, use the shortcut "Flyff.ink" (This shortcut is made for Window) or execute the following command in your terminal:
-
-     ```bash
-     npm start
-     ```
-
-     This will launch the Electron application with the configured settings.
-
-2. **Screenshots**:
-   ![alt text](image.png)
