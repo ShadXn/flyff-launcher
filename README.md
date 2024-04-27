@@ -15,27 +15,33 @@ First, clone this repository to your local machine using Git:
 ```bash
 git clone https://github.com/shadxn/flyff-launcher.git
 cd flyff-launcher
-
-Install Dependencies
-    Navigate into the project directory and install the necessary dependencies:
-    npm install electron --save-dev
-    This command will install Electron and all other dependencies defined in package.json.
-
-    This project uses Bootstrap Icons for window control buttons. Install them via npm:
-    npm install bootstrap-icons
-    This command adds Bootstrap Icons to your project, allowing you to use the icons as part of your application UI. 
-
-Start the Application
-    To run the Flyff Launcher, execute the following command in your terminal:
-    npm start
-    This will launch the Electron application with the configured settings.
-
-    For Windows users only, you can create a shortcut Ink file using mkInk.bat.
-    This shortcut will start the launcher and can be moved where you want it.
 ```
+
+### Install Dependencies
+Navigate into the project directory and install the necessary dependencies:
+```bash
+ npm install electron --save-dev
+```
+This command will install Electron and all other dependencies defined in package.json.
+
+This project uses Bootstrap Icons for window control buttons. Install them via npm:
+```bash
+npm install bootstrap-icons
+```
+This command adds Bootstrap Icons to your project, allowing you to use the icons as part of your application UI. 
+
+### Start the Application
+To run the Flyff Launcher, execute the following command in your terminal:
+```bash
+npm start
+```
+This will launch the Electron application with the configured settings.
+
+For Windows users only, you can create a shortcut Ink file using mkInk.bat.
+This shortcut will start the launcher and can be moved where you want it.
      
 
-2. **Screenshots**:
+## Screenshot
    ![alt text](image.png)
 
 ## Features
