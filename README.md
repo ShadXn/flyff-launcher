@@ -28,9 +28,12 @@ This project uses Bootstrap Icons for window control buttons. Install them via n
 npm install bootstrap-icons
 This command adds Bootstrap Icons to your project, allowing you to use the icons as part of your application's UI.
 
-To run the Flyff Launcher, use the shortcut "Flyff.ink" (This shortcut is made for Window) or execute the following command in your terminal:
+To run the Flyff Launcher, execute the following command in your terminal:
 npm start
 This will launch the Electron application with the configured settings.
+
+Windows shortcut, run mkInk.bat this will make a shortcut Ink file.
+This shortcut can be moved to where you want it and starts the launcher.
 ```
      
 
