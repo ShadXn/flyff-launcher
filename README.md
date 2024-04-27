@@ -2,7 +2,7 @@
 This project provides a custom web-based launcher for playing Flyff Universe, an MMORPG, using Electron. This launcher features a custom title bar with system control buttons (minimize, maximize, close) on the right side and an app icon on the left side.
 
 **Attention: This launcher has only been tested on Windows 10!**
-**PS: Works on Linux, but seems to have a bug with maximize the window**
+**PS: Works on Linux, but seems to have a bug when maximize the window**
 
 ## Prerequisites
 Before you can run this project, you'll need to have Node.js installed on your system. You can download and install Node.js from [Node.js official website](https://nodejs.org/).
@@ -43,7 +43,7 @@ This shortcut will start the launcher and can be moved where you want it.
      
 
 ## Screenshot
-   ![alt text](image.png)
+   ![alt text](assets/launcher.png)
 
 ## Features
  - Custom Title Bar: Includes custom draggable title bar with minimize, maximize, and close buttons.
