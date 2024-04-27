@@ -1,3 +1,12 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Adjust this to match your title bar or window background color */
+    overflow: hidden; /* Prevent scrolling */
+    height: 100%;
+    width: 100%;
+}
+
 #title-bar {
     position: fixed;
     top: 0;
@@ -38,3 +47,14 @@
 .title-bar-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
 }
+
+.title {
+    font-weight: bold;
+    font-family: "Sedan", serif; /* Change title font as needed */
+}
+
+
+
+
+
+
