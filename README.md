@@ -16,7 +16,7 @@ First, clone this repository to your local machine using Git:
 git clone https://github.com/shadxn/flyff-launcher.git
 cd flyff-launcher
 
-`Install Dependencies`
+Install Dependencies
     Navigate into the project directory and install the necessary dependencies:
     npm install electron --save-dev
     This command will install Electron and all other dependencies defined in package.json.
@@ -25,7 +25,7 @@ cd flyff-launcher
     npm install bootstrap-icons
     This command adds Bootstrap Icons to your project, allowing you to use the icons as part of your application UI. 
 
-`Start the Application`
+Start the Application
     To run the Flyff Launcher, execute the following command in your terminal:
     npm start
     This will launch the Electron application with the configured settings.
