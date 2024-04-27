@@ -37,7 +37,7 @@ npm start
 ```
 This will launch the Electron application with the configured settings.
 
-For Windows users only, you can create a shortcut Ink file using mkInk.bat.
+**Windows users only**, you can create a shortcut Ink file using mkInk.bat.
 This shortcut will start the launcher and can be moved where you want it.
      
 
